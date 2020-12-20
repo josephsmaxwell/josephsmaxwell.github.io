@@ -22,18 +22,40 @@
         max-width: 100%;
         width: 200px;
       }
+      
+      #container {
+      	width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       
+       #container div {
+       	background-color: #333;
+        width: 100%;
+        margin: 5px;
+        padding: 10px;
+        padding-bottom: 40px;
+       }
     </style>
   </head>
   <body>
     <h1>Joseph Maxwell Website</h1>
     <p>Welcome to my website</p>
+    <div id="container">
+    <div>
     <h2>Writing</h2>
     <a href="/the-machine">THE MACHINE</a>
+    </div>
+    <div>
     <h2>Music</h2>
     <a href="https://josephmaxwell.bandcamp.com/">
       <img src="https://f4.bcbits.com/img/a1493811875_16.jpg">
     </a>
+    </div>
+    <div>
     <h2>Ten Out of Ten Podcast</h2>
-    <iframe src="https://anchor.fm/josephsmaxwell/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://anchor.fm/josephsmaxwell/embed" height="102px" frameborder="0" scrolling="no"></iframe>
+    </div>
+    </div>
   </body>
 </html>
